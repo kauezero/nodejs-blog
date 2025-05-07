@@ -239,23 +239,10 @@ img {
 .article-list li {
     font-size: 24px;
     cursor: pointer;
-    transition: filter 0.1s;
 }
 
 .article-list li:not(:last-child) {
     border-bottom: 1px solid var(--gray-light);
-}
-
-.article-list li:hover {
-    filter: none;
-}
-
-.article-list:hover li {
-    filter: blur(3px);
-}
-
-.article-list:hover li:hover {
-    filter: none;
 }
 
 .article {
