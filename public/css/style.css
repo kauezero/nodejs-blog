@@ -27,6 +27,12 @@ a:active {
     color: var(--black);
 }
 
+a.btn,
+a.btn:visited,
+a.btn:active {
+    color: #fff;
+}
+
 h1 {
     font-size: var(--font-size-xl);
 }
